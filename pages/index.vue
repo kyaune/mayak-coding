@@ -1,8 +1,11 @@
 <template>
   <div class="main">
     <div class="wrapper">
-      <TheHeader/>
-      <TheDescription/>
+      <TheHeader />
+      <TheDescription />
+      <Balls />
+      <Clicker />
+      <PingPong />
     </div>
     <TheFooter/>
   </div>
@@ -13,13 +16,19 @@
 import TheHeader from '~/components/TheHeader/TheHeader.vue'
 import TheDescription from '~/components/TheDescription/TheDescription.vue'
 import TheFooter from '~/components/TheFooter/TheFooter.vue'
+import Balls from '~/components/Projects/Balls.vue'
+import Clicker from '~/components/Projects/Clicker.vue'
+import PingPong from '~/components/Projects/PingPong.vue'
 require('@/components/reset.css')
 
 export default {
   components: {
     TheHeader,
     TheDescription,
-    TheFooter
+    TheFooter,
+    Balls,
+    Clicker,
+    PingPong
   }
 }
 </script>

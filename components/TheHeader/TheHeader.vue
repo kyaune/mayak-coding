@@ -24,7 +24,6 @@
 .wrapper{
     background-color: #f7d355;
     min-height: 424px;
-    line-height: 1px; 
 }
 .content{
     display: flex;
