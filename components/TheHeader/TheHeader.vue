@@ -23,7 +23,7 @@
 <style scoped>
 .wrapper{
     background-color: #f7d355;
-    height: 424px;
+    min-height: 424px;
     line-height: 1px; 
 }
 .content{
