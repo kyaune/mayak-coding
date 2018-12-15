@@ -34,7 +34,6 @@
     top: 87px;
 }
 .text{
-    
      max-width: 490px;
 }
 .head{
@@ -52,16 +51,16 @@
     letter-spacing: 0.6px;
 }
 .icon{
-    
-}
-.emoji{
     letter-spacing: 3px;
     font-weight: 500;
     line-height: 225px;
     font-size: 180px;
     text-align: center;
-    width: 279px;
-    height: 219px;
+    width: 279px; 
+    /* height: 219px; */
+}
+.emoji{
+    font-size: 150px;
 }
 </style>
 

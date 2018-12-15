@@ -23,10 +23,12 @@
 .wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     letter-spacing: 0.4px;
     line-height: 50px;
     font-size: 40px;
-    text-align: left;
+    /* text-align: left; */
     margin-left: 66px;
     margin-top: 80px;
     margin-bottom: 80px;
