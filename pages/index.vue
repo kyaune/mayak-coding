@@ -6,6 +6,7 @@
       <Balls />
       <Clicker />
       <PingPong />
+      <TheOffline />
     </div>
     <TheFooter/>
   </div>
@@ -19,6 +20,7 @@ import TheFooter from '~/components/TheFooter/TheFooter.vue'
 import Balls from '~/components/Projects/Balls.vue'
 import Clicker from '~/components/Projects/Clicker.vue'
 import PingPong from '~/components/Projects/PingPong.vue'
+import TheOffline from '~/components/offline/TheOffline.vue'
 require('@/components/reset.css')
 
 export default {
@@ -28,7 +30,8 @@ export default {
     TheFooter,
     Balls,
     Clicker,
-    PingPong
+    PingPong,
+    TheOffline
   }
 }
 </script>
