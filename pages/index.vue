@@ -7,11 +7,11 @@
       <Clicker />
       <PingPong />
       <TheOffline />
+      <Simple />
     </div>
     <TheFooter/>
   </div>
 </template>
-
 <script>
 
 import TheHeader from '~/components/TheHeader/TheHeader.vue'
@@ -21,6 +21,7 @@ import Balls from '~/components/Projects/Balls.vue'
 import Clicker from '~/components/Projects/Clicker.vue'
 import PingPong from '~/components/Projects/PingPong.vue'
 import TheOffline from '~/components/offline/TheOffline.vue'
+import Simple from '~/components/Games/Simple.vue'
 require('@/components/reset.css')
 
 export default {
@@ -31,7 +32,8 @@ export default {
     Balls,
     Clicker,
     PingPong,
-    TheOffline
+    TheOffline,
+    Simple
   }
 }
 </script>

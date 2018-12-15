@@ -11,6 +11,9 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/rocket.ico' }
+    ],
+    script: [
+      // { src:'https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js'}
     ]
   },
   /*
@@ -21,6 +24,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    // vendor: ['/p5.js'],
     /*
     ** Run ESLint on save
     */
