@@ -2,10 +2,25 @@
 
 <template>
 <div class="main">
-        <script scr="~/components/Games/game1.js"></script>
+  <vue-p5 v-on="element"></vue-p5>
     </div>
 </template>
 
+ <script>
+export default {    
+  methods: {
+    setup(sketch) {
+      sketch.background('green');
+      sketch.text('Hello p5!', 20, 20);
+      
+    }
+  },
+  render(h) { 
+    return h(VueP5, {on: element}); 
+  }
+}
+console.log('!!!!!');
+</script>
 
 
 <style scoped>
@@ -13,14 +28,6 @@
         margin-top: 100px;
         width: 400px;
         height: 400px;
-        /* background-color: red; */
     }
 </style>
-<script>
-// import game1 from '~/components/Games/game1.js'
-// export default {
-//     game1
-// }
- console.log('!!!!!');
-</script>
 
