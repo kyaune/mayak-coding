@@ -12,7 +12,7 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/rocket.ico' }
     ],
-    plugins:['~/plugins/vue-p5']
+    plugins: ['~/plugins/vue-p5']
   },
   /*
   ** Customize the progress bar color
