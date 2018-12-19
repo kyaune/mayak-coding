@@ -1,0 +1,59 @@
+<template>
+    <div class="main">
+        <div class="wrapper">
+            <div class="head">
+            <p class="header">О нас 🤹‍♂️</p>
+            </div>
+            <div class="hyper">
+                <ul>
+                    <li>
+                    <div class="way">
+                    <p>
+                    <a href="#">Влад Кяуне.</a>
+                    Работает над секретным образовательным продуктом в секретном месте.
+                    </p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="way">
+                    <p>
+                    <a href="#">Стас Кяуне.</a>
+                    Учится в Политехе. Программирует эволюционные алгоритмы.
+                    </p>
+                    </div>
+                    </li>
+                    <li>
+                    <div class="way">
+                    <p>
+                    <a href="#">Динар Некяуне. </a>
+                    Профессиональный бэкэнд senior-девелопер на Scratch.
+                    </p>
+                    </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+    .main{
+        font-style: normal;
+        text-align: left;
+        line-height: 1px;
+        margin-bottom: 40px;
+        /* margin-left: 70px; */
+    }
+    .head{
+        font-weight: bold;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .way{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+</style>

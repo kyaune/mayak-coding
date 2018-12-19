@@ -12,7 +12,6 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/rocket.ico' }
     ],
-    plugins: ['~/plugins/vue-p5']
   },
   /*
   ** Customize the progress bar color
@@ -22,7 +21,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: ['vue-p5'],
     /*
     ** Run ESLint on save
     */

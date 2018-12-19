@@ -7,8 +7,9 @@
                     <p class="head">Шкодинг</p>
                 </div>
                 <div class="description">
-                    <p class="description-text"> Онлайн-уроки кодинга 
-                        для детей или родителей 
+                    <p class="description-text"> 
+                        Открытые онлайн-уроки
+                        для детей или родителей
                     </p>
                 </div>
             </div>
@@ -21,9 +22,14 @@
 </template>
 
 <style scoped>
-.wrapper{
+.main{
     background-color: #f7d355;
-    min-height: 424px;
+    margin: auto;
+}
+.wrapper{
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    min-height: 235px;
 }
 .content{
     display: flex;
@@ -31,24 +37,25 @@
     justify-content: space-around;
     position: relative;
     margin-left: 66px;
-    top: 87px;
+    top: 47px;
 }
 .text{
      max-width: 490px;
 }
 .head{
-    font-size: 90px;
-    line-height: 112px;
+    line-height: 87px;
+    font-size: 70px;
+    letter-spacing: 3px;
     text-align: left;
-    letter-spacing: 6px;
     font-weight: bold;
 }
 .description-text{
     font-weight: 500;
-    line-height: 45px;
-    font-size: 40px;
+    line-height: 25px;
+    font-size: 22px;
     text-align: left;
     letter-spacing: 0.6px;
+    max-width: 350px;
 }
 .icon{
     letter-spacing: 3px;
@@ -56,8 +63,8 @@
     line-height: 225px;
     font-size: 180px;
     text-align: center;
-    width: 279px; 
-    /* height: 219px; */
+    position: relative;
+    top: -20px;
 }
 .emoji{
     font-size: 150px;

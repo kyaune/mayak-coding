@@ -22,54 +22,47 @@
     </div>
 </template>
 <style scoped>
-
 .main{
     font-weight: 400;
     font-style: normal;
     color: white;
+    margin-bottom: 60px;
 }
 .wrapper{
-    min-height: 440px;
-    background-color: rgb(230, 148, 63);
-    margin-left: 66px;
-    margin-right: 66px;
-    margin-bottom: 60px;
+    height: 228px;
+    background-color: rgb(224, 84, 67);
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .content{
-    position: relative;
-    top: -60px; 
+    margin-left: 26px;
+    margin-right: 26px;
 }
 .headline{
-    position: relative;
-    margin-right: 60px;
-    line-height: 31px;
-    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 16px;
+    font-size: 13px;
     text-align:right;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
 }
 .name{
-    line-height: 56px;
-    font-size: 45px;
+    line-height: 31px;
+    font-size: 25px;
     text-align: center;
 }
 .topic{
     font-weight: bold;
     font-style: normal;
+    margin-bottom: 27px;
 }
 .description{
-    
-    line-height: 31px;
-    font-size: 25px;
+    line-height: 19px;
+    font-size: 15px;
     text-align: center;
-}
-.description-content{
-    position: relative;
-    top: 60px;
-    /* width: 200px; */
 }
 
 </style>
