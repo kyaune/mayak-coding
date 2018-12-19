@@ -21,7 +21,7 @@
         font-style: normal;
         text-align: left;
         line-height: 1px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         /* margin-left: 70px; */
     }
     .head{

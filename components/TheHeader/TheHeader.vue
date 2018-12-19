@@ -27,6 +27,8 @@
 }
 .wrapper{
     min-height: 235px;
+    /* max-width: 900px;
+    min-width: 900px; */
 }
 .content{
     display: flex;

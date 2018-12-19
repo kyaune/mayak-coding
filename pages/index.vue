@@ -62,15 +62,18 @@ export default {
   flex-direction: row;
   /* width: 800px; */
   margin-left: 15%;
-  margin-right: 15%;
+  /* margin-right: 15%; */
 }
 .lessons{
   display: flex;
   flex-direction: column;
-  
+  max-width: 421px;
+  min-width: 421px;
 }
 .info{
-  margin-left: 70px;
+  margin-left: 30px;
+  max-width: 380px;
+  min-width: 380px;
 }
 </style>
 

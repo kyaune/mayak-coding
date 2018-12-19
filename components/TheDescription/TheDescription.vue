@@ -15,6 +15,7 @@
     /* padding-left: 150px;
     padding-right: 150px; */
     /* margin: auto; */
+    
 }
 .wrapper{
     display: flex;
@@ -24,6 +25,8 @@
     /* max-width: 811px; */
     margin-left: 15%;
     margin-right: 15%;
+    max-width: 650px;
+    min-width: 650px;
 }
 .fist-paragraph{
     letter-spacing: 0.4px;

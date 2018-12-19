@@ -26,11 +26,11 @@
     font-weight: 400;
     font-style: normal;
     color: white;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .wrapper{
     height: 228px;
-    background-color: rgb(51, 86, 112);
+    background-color: rgb(136, 72, 98);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -48,6 +48,7 @@
     text-align:right;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
+     margin-top: -30px;
 }
 .name{
     line-height: 31px;
@@ -64,6 +65,8 @@
     line-height: 19px;
     font-size: 15px;
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 </style>

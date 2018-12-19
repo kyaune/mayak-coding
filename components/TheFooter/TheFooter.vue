@@ -2,7 +2,7 @@
     <div class="main">
         <div class="wrapper">
             <div class="text">
-                <p>Москва—С. Петербургъ 2018</p>
+                <p>Москва — С. Петербургъ 2018</p>
             </div>
         </div>
     </div>
