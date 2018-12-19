@@ -3,8 +3,8 @@
         <div class="wrapper">
             <div class="content">
             <div class="headline">
-                <p>простой</p>
-                <p>20 минут</p>
+                <p>средний</p>
+                <p>30 минут</p>
             </div>
             <div class="name">
                 <p class="lesson">Второй урок:</p>
@@ -12,9 +12,7 @@
             </div>
             <div class="description">
                 <div class="description-content">
-                <p>Научимся создавать объекты на случайных координатах. 
-                    Зададим правило для того, чтобы шарик «лопался» 
-                    и появлялся в новом месте
+                <p>Напишем популярную версию игры "Пинг-понг" для одного игрока
                 </p>
                 </div>
             </div>
@@ -31,7 +29,7 @@
 }
 .wrapper{
     height: 228px;
-    background-color: rgb(224, 84, 67);
+    background-color: rgb(51, 86, 112);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -54,11 +52,12 @@
     line-height: 31px;
     font-size: 25px;
     text-align: center;
+    margin-top: 20px;
 }
 .topic{
     font-weight: bold;
     font-style: normal;
-    margin-bottom: 27px;
+    margin-bottom: 15px;
 }
 .description{
     line-height: 19px;

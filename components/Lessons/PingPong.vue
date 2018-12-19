@@ -3,17 +3,17 @@
         <div class="wrapper">
             <div class="content">
             <div class="headline">
-                <p>средний</p>
-                <p>30 минут</p>
+                <p>сложный</p>
+                <p>60 минут</p>
             </div>
             <div class="name">
                 <p class="lesson">Третий урок:</p>
-                <p class="topic">Игра «Пинг понг»</p>
+                <p class="topic">Анимация «Гонки»</p>
             </div>
             <div class="description">
                 <div class="description-content">
-                <p>Научимся создавать объекты, которые летают и отталкиваются 
-                    от стен. Зададим поведение мячика при ударе о ракетку
+                <p>Установим необходимую программу, покажем как её запускать
+                     и выводить на экран разноцветные круги
                 </p>
                 </div>
             </div>
@@ -30,7 +30,7 @@
 }
 .wrapper{
     height: 228px;
-    background-color: rgb(224, 84, 67);
+    background-color: rgb(51, 86, 112);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -53,11 +53,12 @@
     line-height: 31px;
     font-size: 25px;
     text-align: center;
+    margin-top: 20px;
 }
 .topic{
     font-weight: bold;
     font-style: normal;
-    margin-bottom: 27px;
+    margin-bottom: 15px;
 }
 .description{
     line-height: 19px;

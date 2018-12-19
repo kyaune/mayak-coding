@@ -12,8 +12,9 @@
 </template>
 <style scoped>
 .main{
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    /* margin: auto; */
 }
 .wrapper{
     display: flex;
@@ -21,11 +22,13 @@
     margin-top: 80px;
     margin-bottom: 40px;
     /* max-width: 811px; */
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .fist-paragraph{
     letter-spacing: 0.4px;
     line-height: 28px;
     font-size: 22px;
-    text-align: left;
+    text-align: left;;
 }
 </style>

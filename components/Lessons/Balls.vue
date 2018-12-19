@@ -54,11 +54,12 @@
     line-height: 31px;
     font-size: 25px;
     text-align: center;
+    margin-top: 20px;
 }
 .topic{
     font-weight: bold;
     font-style: normal;
-    margin-bottom: 27px;
+    margin-bottom: 15px;
 }
 .description{
     line-height: 19px;

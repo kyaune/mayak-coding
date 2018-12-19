@@ -61,8 +61,8 @@ export default {
   display: flex;
   flex-direction: row;
   /* width: 800px; */
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .lessons{
   display: flex;
