@@ -38,9 +38,7 @@
     .main{
         font-style: normal;
         text-align: left;
-        line-height: 1px;
         margin-bottom: 40px;
-        /* margin-left: 70px; */
     }
     .head{
         font-weight: bold;
@@ -53,7 +51,6 @@
         flex-wrap: wrap;
     }
     .way{
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 10px;
     }
 </style>

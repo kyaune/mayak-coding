@@ -26,9 +26,7 @@
     .main{
         font-style: normal;
         text-align: left;
-        line-height: 1px;
         margin-bottom: 40px;
-        /* margin-left: 70px; */
     }
     .head{
         font-weight: bold;
@@ -41,11 +39,15 @@
         font-size: 15px;
         padding-top: 8px;
     }
+    .hyper{
+        padding: 0px;
+    }
     ul{
         list-style-type: none;
+        padding: 0px;
     }
     li{
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-top: 10px;
+        padding: 0px;
     }
 </style>
